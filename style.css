@@ -32,6 +32,12 @@ body {
   position: absolute;
   right: 0.5rem;
   bottom: 0.5rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: var(--green);
+  background-color: var(--grey-dark);
 }
 
 h1,
@@ -161,8 +167,15 @@ input[type="checkbox"]:checked::before {
 .counter-container button {
   border: none;
   background-color: transparent;
-  color: red;
+  color: var(--grey-dark);
   font-size: 1rem;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.counter-container button:hover {
+  color: red;
+  background-color: rgba(138, 136, 136, 0.596);
 }
 
 .footer {
